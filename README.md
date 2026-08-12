@@ -4,7 +4,7 @@
 ## Setup
 1. Place dataset in `data/UCI HAR Dataset/`
 2. `pip install -r requirements.txt`
-3. `python main.py`
+3. `python src/main.py`
 
 ## What it does
 Trains a fixed feed-forward architecture (Dense128-Dense64-Dense6) with 9

@@ -1,0 +1,10 @@
+name,batch_size,epochs_run,train_time_sec,test_accuracy,test_f1_macro,final_train_loss,final_val_loss,part
+1_Batch_GD,6249,50,7.07,0.7645,0.7617,0.9407,0.6869,I
+2_Minibatch_SGD,32,50,18.16,0.9501,0.9496,0.0403,0.0464,I
+3_Stochastic_GD,1,16,99.11,0.9389,0.9385,0.2024,0.1427,I
+4_Gradient_Descent,32,50,16.2,0.9491,0.949,0.04,0.0472,II
+5_GD_Momentum,32,27,9.02,0.942,0.9414,0.0288,0.0548,II
+6_GD_Nesterov_Momentum,32,19,7.04,0.9413,0.9395,0.034,0.0666,II
+7_AdaGrad,32,50,17.54,0.941,0.9398,0.1681,0.1073,III
+8_RMSProp,32,17,12.35,0.9447,0.9445,0.0572,0.089,III
+9_Adam,32,40,18.49,0.9488,0.9477,0.0227,0.0461,III
